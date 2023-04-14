@@ -131,46 +131,46 @@ footer p {
 
 @media all and (min-width: 480px) {
   header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+  }
+
+  body {
+      font-family: "Lato", sans-serif;
+      display: grid;
   }
 
   .logo {
-    margin: 14px 0 14px 20px;
-    padding-top: 0;
-    font-size: 42px;
+      margin: 14px 0 14px 20px;
+      padding-top: 0;
+      font-size: 42px;
   }
 
-  form select, form input {
-    margin-bottom: 20px;
-    width: 180px;
-  }
-  
   header nav ul {
-    align-items: center;
+      align-items: center;
   }
 
   .group {
-    flex-direction: row;
-    align-items: center;
+      flex-direction: row;
+      align-items: center;
   }
 
   form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
 
   form div {
-    flex-direction: column;
+      flex-direction: column;
   }
 
   form button {
-    flex: 1;
+      flex: 1;
   }
-  
+
   form select, form input {
-    margin-bottom: 0px;
+      margin-bottom: 0px;
   }
 }
